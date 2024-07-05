@@ -1,0 +1,119 @@
+/* main.css */
+.logo {
+    width: 10mm; /* Set the width of the logo */
+    height: 10mm; /* Maintain the aspect ratio */
+
+}
+
+.home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/pexels-robinstickel-70497.jpg");
+    background-size: cover;
+    position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/*--------=========================++++++++++++++++++++++++++++++++++++++====================------*/
+/* style.css */
+
+/* Reset some default styles */
+body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color for the navbar */
+    padding: 10px 20px; /* Padding for the navbar */
+}
+
+.navbar .navbar-brand .logo {
+    width: 10mm; /* Set the width of the logo to 10mm */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Nav links styles */
+.nav-links {
+    list-style: none; /* Remove list style */
+    display: flex; /* Use flexbox for layout */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+}
+
+.nav-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/*--------=========================++++++++++++++++++++++++++++++++++++++====================------*/
+.title{
+    margin: 50px;
+    text-align: center;
+}
+
+.picture{
+    width: 300px;
+    border-radius: 50%;
+    height: 150px;
+
+}
+
+.item-title{
+    position: relative;
+    margin-top: 10px;
+    left: 100px;
+}
+
+#cart {
+    float: right;
+}
+
+.content {
+    position: relative;
+}
+
+.orders {
+    position: relative;
+    top: 100px;
+    line-height: 200%;
+}
+
+.del {
+    position: absolute;
+    right: 30px;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 22px;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.del:hover{
+    background-color: rgb(225, 124, 124);
+}
+
+li {
+    display: flex;
+}
+
+
